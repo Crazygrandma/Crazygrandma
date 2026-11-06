@@ -47,18 +47,18 @@ const projects = [
     description: 'An experimental desktop environment inspired by Terraria.'
   },
   {
-    title: 'Project Two',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    title: 'DiscordGPTBot',
+    description: 'A discord bot using pycord with local LLM support'
   },
   {
-    title: 'Project Three',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    title: 'CinematicCam',
+    description: 'A camera mod for RocketLeague'
   }
 ]
 
 const socials = [
-  { name: 'GitHub', url: 'https://github.com/' },
-  { name: 'LinkedIn', url: 'https://linkedin.com/' },
+  { name: 'GitHub', url: 'https://github.com/Crazygrandma' },
+  //{ name: 'LinkedIn', url: 'https://linkedin.com/' },
   { name: 'Email', url: 'mailto:your@email.com' }
 ]
 </script>
@@ -83,9 +83,9 @@ const socials = [
   </div>
 
   <div class="about-description">
-    <h2>A little about me</h2>
+    <h2>About me</h2>
     <p>
-      I enjoy exploring unfamiliar technologies, experimenting with ideas, 
+      I enjoy exploring unfamiliar technologies, experimenting with ideas,
       and connecting concepts from different fields to create something new.
       When something catches my interest, I dive deep into its
       fundamentals, often challenging myself with projects that
@@ -96,10 +96,10 @@ const socials = [
 </section>
 
     <!-- Projects -->
-    <!-- <section id="projects" class="section">
+    <section id="projects" class="section">
       <div class="section-heading">
         <p class="eyebrow">WHAT I'VE BEEN WORKING ON</p>
- 
+
         <h2>Projects</h2>
       </div>
 
@@ -113,7 +113,7 @@ const socials = [
           <p>{{ project.description }}</p>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <!-- Skills -->
     <!-- <section id="skills" class="section">
